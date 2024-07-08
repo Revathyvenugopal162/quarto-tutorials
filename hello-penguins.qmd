@@ -2,6 +2,9 @@
 title: Hello, Penguins!
 format: html
 date: 7/8/2024
+lightbox: true
+author: Revathy Venugopal
+theme: sketchy
 ---
 
 # Introduction
@@ -19,6 +22,10 @@ import plotnine as p9
 ```
 
 ## Data
+
+![hgf](images/penguins.png){fig-alt="hf"}
+
+This is *Tutorial sessions* and **bold testing**.
 
 The dataset we'll use comes from the palmerpenguins package.
 
@@ -68,8 +75,8 @@ The figure below the relationship between body mass and flipper length of pengui
     ) 
     + p9.theme_minimal()
     + p9.labs(
-        x = "Flipper length", 
-        y = "Body mass", 
+        x = "mm", 
+        y = "grams", 
         color = "Species", 
         title = "Body mass vs. flipper length of Palmer Penguins"
     )

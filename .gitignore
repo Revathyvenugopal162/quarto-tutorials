@@ -11,3 +11,7 @@ hello-penguins-slides-speaker.html
 hello-dashboard_files/
 hello-dashboard.html
 
+
+/.quarto/
+_site/
+_freeze/

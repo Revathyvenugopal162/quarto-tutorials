@@ -1,6 +1,11 @@
 ---
 title: "Hello, Penguins!"
-format: revealjs
+logo: "images/quarto-logo.png"
+format: 
+  revealjs:
+    chalkboard: true
+    footer: "Revathy Venugopal"
+    multiplex: True
 ---
 
 ## Packages
@@ -30,11 +35,37 @@ The table below shows the first 10 penguins from the dataset.
 
 ```{python}
 #| label: penguins-top10
+#| code-line-numbers: "1"
 gt.GT(penguins.head(n = 10))
 ```
 
+## tabs
+::: {.tabset}
+
+### The dataset contains 344 rows and 8 columns.
+- The columns are:
+  - species
+  - island
+  - bill_length_mm
+  - bill_depth_mm
+  - flipper_length_mm
+  - body_mass
+
+### summary
+- The columns are:
+  - species
+  - island
+  - bill_length_mm
+  - bill_depth_mm
+  - flipper_length_mm
+  - body_mass
+:::
+
+
 # Analysis
 
+
+## Bill Dimensions
 ## Species
 
 The figure below is a bar plot of species of penguins.
@@ -52,3 +83,4 @@ The figure below is a bar plot of species of penguins.
   + p9.theme_minimal()
 )
 ```
+

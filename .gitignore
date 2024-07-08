@@ -1,3 +1,11 @@
 .venv/
 hello-penguins_files/
 hello-penguins.html
+markdown-syntax_files/
+callout-boxes_files/
+tables-figures_files/
+markdown-syntax.html
+callout-boxes.html
+tables-figures.html
+hello-penguins-slides-speaker.html
+

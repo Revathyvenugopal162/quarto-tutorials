@@ -1,7 +1,28 @@
 ---
-title: Markdown syntax
+title: quarto tutorial testing
 format: html
+author: Revathy Venugopal
+lightbox: true
 ---
+
+#### This is for table
+
+| A     | B     | A and B |
+|-------|-------|---------|
+| True  | False | False   |
+| True  | true  | True    |
+| false | true  | false   |
+| false | false | false   |
+
+: this is for testing
+
+## Header 1
+
+### subheader 1
+
+## header 2
+
+![optional image](images/python-logo.png){fig-alt="testing image"}
 
 1.  Add a title and author to the YAML header. Add a table of contents as well.
 
@@ -10,3 +31,14 @@ format: html
 3.  Add an image link to a web image you have chosen and to a local image.
 
 4.  Use any markdown syntax that you can recall from the slides or refresh your memory from <https://quarto.org/docs/authoring/markdown-basics.html>.
+
+~~This is striking~~ and
+
+-   unordered list
+    -   sub-item 1
+    -   sub-item 2
+        -   sub-sub-item 1
+
+::: callout-tip
+:::callout- {name} in which names are `tip` `note`, `important`, `warning`, `caution`
+:::

@@ -1,10 +1,15 @@
 ---
 title: Hello, Penguins!
-format: html
+format: 
+    html:
+        code-fold: true
 date: 7/8/2024
 lightbox: true
 author: Revathy Venugopal
 theme: sketchy
+smooth-scroll: true
+abstract: |
+    This is a tutorial on how to analyze the Palmer Penguins dataset using Python. We'll explore the relationship between body mass and flipper
 ---
 
 # Introduction
@@ -82,3 +87,7 @@ The figure below the relationship between body mass and flipper length of pengui
     )
 )
 ```
+
+::: {style="border-left:10px solid red;padding-left:5px"}
+This content is styled with a thick red border and some padding next to it.
+:::
